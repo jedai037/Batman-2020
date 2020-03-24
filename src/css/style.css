@@ -4,10 +4,9 @@
 }
 
 body {
-  background: #0A090A;
+  background: #0A090A url(../img/main-bg.jpg);
   color: #ffffff;
   font-family: 'Roboto';
-  background-image: url(/src/img/main-bg.jpg);
   background-repeat: no-repeat;
   background-position: top center;
 }
