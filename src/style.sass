@@ -1,0 +1,57 @@
+*
+    box-sizing: border-box
+
+body 
+    background: #0A090A
+    color: #ffffff
+    font-family: 'Roboto'
+    background-image: url(/src/img/main-bg.jpg) 
+    background-repeat: no-repeat
+    background-position: top center
+.container
+    max-width: 1140px
+    margin: auto
+.header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-top: 45px
+.logo
+    font-style: normal
+    font-weight: 900
+    font-size: 24px
+    line-height: 28px
+
+.search
+    display: flex
+    align-items: center
+    flex: 0.8
+    &-input
+        padding: 12px 18px
+        color: #AEAEAE
+        background: rgba(196, 196, 196, 0.5)
+        border-radius: 5px
+        border: none
+        outline: none
+        font-size: 14px
+        line-height: 16px
+        flex: 1
+    &-button
+        background-color: transparent
+        border: none
+        outline: none
+        padding: 10px 18px
+    
+input::-webkit-input-placeholder        //    изменение placeholder
+    color: #AEAEAE
+
+
+.user
+    display: flex
+    align-items: center
+.avatar
+    margin-left: 20px
+    width: 40px
+    height: 40px
+    border-radius: 50%
+    object-fit: cover           //чтобы фотка не расстягивалась, а чётко вставала в отведённое ей место
