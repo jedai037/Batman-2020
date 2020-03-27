@@ -127,6 +127,8 @@ input::-webkit-input-placeholder        //    изменение placeholder
     margin-top: 115px
     color: #000
     padding: 3% 4%
+.hidden
+    display: none
 .short-info
     margin-right: 3%
 .poster
@@ -235,8 +237,11 @@ input::-webkit-input-placeholder        //    изменение placeholder
 @media (max-width: 768px)
     .container
         max-width: 540px
+    .info
+        flex-wrap: wrap
     .more
-        display: none
+        flex-basis: 100%
+        margin-top: 10%
     .tabs
         &-item
             flex-basis: 33%

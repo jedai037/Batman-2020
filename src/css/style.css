@@ -206,6 +206,10 @@ input::-webkit-input-placeholder {
   padding: 3% 4%;
 }
 
+.hidden {
+  display: none;
+}
+
 .short-info {
   margin-right: 3%;
 }
@@ -373,8 +377,14 @@ input::-webkit-input-placeholder {
   .container {
     max-width: 540px;
   }
+  .info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .more {
-    display: none;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-top: 10%;
   }
   .tabs-item {
     -ms-flex-preferred-size: 33%;
